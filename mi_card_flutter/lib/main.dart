@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage('images/maicon.jpg'),
+              backgroundImage: AssetImage('images/avatar.png'),
             ),
             Text(
-              'Maicon Pereira',
+              'Your name',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text(
-                  'maicon.cp@outlook.com',
+                  'email@email.com',
                   style: TextStyle(
                     color: Colors.teal.shade900,
                     fontFamily: 'Source Sans Pro',
